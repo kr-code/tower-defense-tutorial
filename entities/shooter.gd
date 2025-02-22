@@ -4,7 +4,7 @@ class_name Shooter
 signal has_shot(reload_time: float)
 
 @export var fire_rate := 0.1
-@export var rot_speed := 5.0
+@export var rot_speed := 6.0
 @export var projectile_type: PackedScene
 @export var projectile_speed := 1000
 @export var projectile_damage := 3
